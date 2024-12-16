@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { ChevronDown } from "lucide-react";
 
 export default function Header() {
   return (
@@ -16,10 +17,16 @@ export default function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center space-x-8 text-white">
-          <Link href="/solutions" className="text-sm hover:text-primary">
+          <Link
+            href="/solutions"
+            className="text-sm hover:text-primary hover:underline"
+          >
             Solutions
           </Link>
-          <Link href="/industries" className="text-sm hover:text-primary">
+          <Link
+            href="/industries"
+            className="text-sm hover:text-primary hover:underline"
+          >
             Industries
           </Link>
           <Link href="/resources" className="text-sm hover:text-primary">
