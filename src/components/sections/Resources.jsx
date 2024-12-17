@@ -2,12 +2,12 @@ import React from "react";
 import { Flex, Text, Box, Card, Inset, Strong } from "@radix-ui/themes";
 import * as Tabs from "@radix-ui/react-tabs";
 
-export default function KnowledgeHub() {
+export default function Resources() {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="mb-12">
-          <h2 className="text-3xl font-bold mb-4">Knowledge Hub (26)</h2>
+          <h2 className="text-3xl font-bold mb-4">Resources</h2>
           <p className="text-muted-foreground max-w-2xl">
             Discover our case studies, white papers, and product brochures,
             crafted to guide you in navigating key industry transformations and

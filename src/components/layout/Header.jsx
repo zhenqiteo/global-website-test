@@ -34,7 +34,7 @@ export default function Header() {
                   {item.label}
                   <ChevronDown className="h-4 w-4" />
                 </button>
-                <div className="absolute left-0 top-full mt-2 w-48 rounded-md bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+                <div className="absolute left-0 top-full mt-2 w-48 rounded-sm bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
                   <div className="py-1">
                     {item.items.map((subItem, subIndex) => (
                       <Link
@@ -82,8 +82,8 @@ export default function Header() {
             About Us
           </Link>
         </nav> */}
-        <div className="hidden md:flex items-center text-white">
-          <button> contact us </button>
+        <div className="hidden md:flex items-center border rounded-[20px] px-8 text-white hover:bg-black hover:text-white">
+          <button> Contact Us </button>
         </div>
       </div>
       .

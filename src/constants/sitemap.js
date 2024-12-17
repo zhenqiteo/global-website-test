@@ -2,27 +2,49 @@ const sitemap = [
   {
     label: "Solutions",
     items: [
-      { label: "AI and Machine Learning", href: "/solutions/ai-ml" },
       {
-        label: "Industrial Automation",
-        href: "/solutions/industrial-automation",
+        label: "Next Generation Automation - UCS",
+        href: "/solutions/next-gen-automation",
       },
       {
-        label: "Predictive Maintenance",
-        href: "/solutions/predictive-maintenance",
+        label: "Control and Instrumentation",
+        href: "/solutions/control-instrumentation",
+      },
+      {
+        label: "Digital Solutions",
+        href: "/solutions/digital-solutions",
       },
     ],
   },
   {
     label: "Industries",
     items: [
-      { label: "Manufacturing", href: "/industries/manufacturing" },
+      { label: "Oil and Gas", href: "/industries/oil-and-gas" },
+      { label: "Chemical", href: "/industries/chemical" },
+      { label: "Power", href: "/industries/power" },
+      { label: "Building Material", href: "/industries/building-material" },
       { label: "Energy", href: "/industries/energy" },
-      { label: "Healthcare", href: "/industries/healthcare" },
+      { label: "Pulp and Paper", href: "/industries/pulp-and-paper" },
+      { label: "Metallurgy", href: "/industries/metallurgy" },
+      { label: "Life Science", href: "/industries/life-science" },
+      { label: "Food & Beverage", href: "/industries/food-and-beverage" },
+      { label: "Utility", href: "/industries/utility" },
     ],
   },
   { label: "Resources", href: "/resources" },
-  { label: "Newsroom", href: "/newsroom" },
+  {
+    label: "Newsroom",
+    items: [
+      {
+        label: "Events",
+        href: "/events",
+      },
+      {
+        label: "Media press",
+        href: "/press",
+      },
+    ],
+  },
   { label: "Career", href: "/career" },
   {
     label: "About Us",

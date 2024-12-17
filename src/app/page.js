@@ -1,6 +1,7 @@
 import Header from "@/components/layout/Header";
 import Hero from "@/components/sections/Hero";
-import KnowledgeHub from "@/components/sections/KnowledgeHub";
+import Resources from "@/components/sections/Resources";
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -8,8 +9,9 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <KnowledgeHub />
+        <Resources />
       </main>
+      <Footer />
     </>
   );
 }

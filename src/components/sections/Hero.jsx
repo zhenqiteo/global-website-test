@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Badge } from "@radix-ui/themes";
 
 export default function Hero() {
   return (
@@ -14,11 +15,11 @@ export default function Hero() {
       <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
         <div className="space-y-4">
           <div className="flex gap-2">
-            {/* <Badge variant="secondary">Case Studies</Badge>
-            <Badge variant="secondary">Oil & Gas</Badge> */}
+            <Badge variant="secondary">Case Studies</Badge>
+            <Badge variant="secondary">Oil & Gas</Badge>
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-bold text-white max-w-3xl">
+          <h1 className="font-poppins font-normal leading-[1.2] text-4xl md:text-6xl text-white max-w-3xl tracking-wide">
             Digitalizing Oil & Gas: SUPCON's Role in Operational Excellence
           </h1>
         </div>
