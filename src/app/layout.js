@@ -26,7 +26,7 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    default: "Home",
+    default: "SUPCON",
     template: "%s | SUPCON",
   },
   description: "NEXT GENERATION AUTOMATION",
@@ -35,10 +35,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="overflow-x-hidden">
-      <body
-        className={`scroll-smooth ${poppins.variable} ${geistSans.variable} ${inter.variable} antialiased`}
-      >
+    <html
+      lang="en"
+      className={`scroll-smooth ${poppins.variable} ${geistSans.variable} ${inter.variable} antialiased`}
+    >
+      <body className="w-screen overflow-x-hidden">
         <Theme>{children}</Theme>
       </body>
     </html>

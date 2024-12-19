@@ -5,14 +5,16 @@ import * as Tabs from "@radix-ui/react-tabs";
 export default function Resources() {
   return (
     <section className="py-16 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="mb-12">
-          <h2 className="text-3xl font-bold mb-4">Resources</h2>
-          <p className="text-muted-foreground max-w-2xl">
-            Discover our case studies, white papers, and product brochures,
-            crafted to guide you in navigating key industry transformations and
-            accelerating your path to value realization
+      <div className="container mx-auto px-4 py-16">
+        {/* Header Section */}
+        <div className="text-center mb-16">
+          <p className="text-[#006fe5] font-title font-medium text-sm uppercase tracking-wider mb-4">
+            Resources
           </p>
+          <h1 className="font-title text-[#1c1c1c] text-sm md:text-5xl font-medium mb-2">
+            Digital Resources <br />
+            for Industry Innovators
+          </h1>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
           {/* <Tabs defaultValue="all" className="w-full md:w-auto">
@@ -27,7 +29,7 @@ export default function Resources() {
           </Tabs> */}
         </div>
         <Tabs.Root defaultValue="tab1" orientation="vertical">
-          <Tabs.List className="flex w-full" aria-label="tabs example">
+          <Tabs.List className="flex max-w-screen-md" aria-label="tabs example">
             <Tabs.Trigger
               value="tab1"
               className="px-8 py-4 data-[state=active]:text-blue-500 data-[state=active]:border-blue-500 data-[state=active]:border-b-4"
@@ -54,7 +56,19 @@ export default function Resources() {
             </Tabs.Trigger>
           </Tabs.List>
           <Tabs.Content value="tab1" className="bg-slate-100">
-            Tab one content
+            <div>
+              <h2 className="text-2xl text-[56px] mb-4">
+                All Resources
+                <span className="text-gray-500 text-lg ml-2">(105)</span>
+              </h2>
+              <p className="text-gray-600">
+                Discover our <span className="font-medium">case studies</span>,{" "}
+                <span className="font-medium">white papers</span>, and{" "}
+                <span className="font-medium">product brochures</span>, crafted
+                to guide you in navigating key industry transformations and
+                accelerating your path to value realization.
+              </p>
+            </div>
           </Tabs.Content>
           <Tabs.Content value="tab2" className="bg-slate-300600">
             Tab two content

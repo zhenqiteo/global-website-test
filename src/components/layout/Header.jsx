@@ -16,17 +16,17 @@ export default function Header() {
     return null;
   }
   return (
-    <header className="fixed top-0 w-full z-50">
+    <header className="font-title fixed top-0 w-screen z-50">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-bold text-primary">
+        <Link href="/" className="">
           <Image
             src="/images/SUPCON_White_Logo_1.png"
-            width={100}
-            height={100}
+            width={126}
+            height={18}
             alt="SUPCON Logo"
           />
         </Link>
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden xl:flex items-center gap-8">
           {sitemap.map((item, index) =>
             item.items ? (
               <div key={index} className="relative group">

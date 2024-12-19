@@ -19,7 +19,7 @@ export default function Hero() {
             <Badge variant="secondary">Oil & Gas</Badge>
           </div>
 
-          <h1 className="font-poppins font-normal leading-[1.2] text-4xl md:text-6xl text-white max-w-3xl tracking-wide">
+          <h1 className="font-title font-normal leading-[1.2] text-4xl md:text-6xl text-white max-w-3xl tracking-wide">
             Digitalizing Oil & Gas: SUPCON's Role in Operational Excellence
           </h1>
         </div>
